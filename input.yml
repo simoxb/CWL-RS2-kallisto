@@ -1,0 +1,25 @@
+read_1: 
+    class: File
+    path: /home/simon/input/SRR10055512_1.fq    
+read_2: 
+    class: File
+    path: /home/simon/input/SRR10055512_2.fq
+
+gtf: 
+    class: File
+    path: /home/simon/input/ref-transcripts.gtf
+
+ref_cdna:
+    class: File
+    path: /home/simon/input/hg19.fa
+    
+transcriptome:
+    class: File
+    path: /home/simon/input/homo_sapiens.fa
+    
+basedir:
+    class: Directory
+    path: /home/simon/GitHub/CWL-RS2-kallisto
+    
+split: 10
+
