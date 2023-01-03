@@ -1,21 +1,21 @@
 read_1: 
     class: File
-    path: /home/simon/input/SRR10055512_1.fq    
+    path: /home/simon/input/SRR14197369_1.fastq.gz      
 read_2: 
     class: File
-    path: /home/simon/input/SRR10055512_2.fq
+    path: /home/simon/input/SRR14197369_2.fastq.gz
 
 gtf: 
     class: File
-    path: /home/simon/input/ref-transcripts.gtf
+    path: /home/simon/input/BDGP6.gtf
 
 ref_cdna:
     class: File
-    path: /home/simon/input/hg19.fa
+    path: /home/simon/input/BDGP6_cdna.fasta
     
 transcriptome:
     class: File
-    path: /home/simon/input/homo_sapiens.fa
+    path: /home/simon/input/BDGP6.fasta
     
 basedir:
     class: Directory

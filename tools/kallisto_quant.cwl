@@ -1,7 +1,7 @@
 class: CommandLineTool
 cwlVersion: v1.2
   
-label: kallisto_index
+label: kallisto_quant
 
 hints:
     DockerRequirement:
