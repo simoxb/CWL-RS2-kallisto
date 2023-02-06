@@ -12,9 +12,9 @@ baseCommand: [fastp, --detect_adapter_for_pe]
 
 arguments:
     - prefix: -o
-      valueFrom: $(inputs.read_1.nameroot)_fastp.fastq
+      valueFrom: $(inputs.read_1.nameroot).fastp.fq
     - prefix: -O
-      valueFrom: $(inputs.read_2.nameroot)_fastp.fastq
+      valueFrom: $(inputs.read_2.nameroot).fastp.fq
 
 
 inputs:
